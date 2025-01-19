@@ -19,4 +19,8 @@ int main()
 	cin >> sum;
 	cout << "-----Проверяем----- " << endl;
 
+	if (sum == firstNumber + secondNumber)
+	{
+		cout << "Верно!" << endl;
+	}
 }
