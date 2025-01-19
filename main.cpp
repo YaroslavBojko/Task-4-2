@@ -22,5 +22,9 @@ int main()
 	if (sum == firstNumber + secondNumber)
 	{
 		cout << "Верно!" << endl;
+	} 
+	else
+	{
+		cout << "Ошибка! Верный результат: " << firstNumber + secondNumber << endl;
 	}
 }
